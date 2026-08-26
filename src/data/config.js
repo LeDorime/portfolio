@@ -62,7 +62,7 @@ export const projects = [
       "Bidirectional LSTM model predicting real-time bus arrival times across London, ON. Trained on 100k+ rows of live transit and weather data — outperformed baseline heuristics on MAE and RMSE.",
     tags: ["Python", "PyTorch", "Pandas", "NumPy"],
     primaryTag: "PyTorch",
-    links: [{ label: "Private repo", href: "https://github.com/LeDorime" }],
+    links: [],
   },
   {
     name: "Handwritten Digit Recognition",
@@ -85,12 +85,7 @@ export const projects = [
       "Recommendation model built at 60Talent to match specialists to job postings based on skill similarity and engagement history. Improved top-10 candidate ranking accuracy.",
     tags: ["Python", "scikit-learn", "Pandas", "Matplotlib"],
     primaryTag: "scikit-learn",
-    links: [
-      {
-        label: "LinkedIn →",
-        href: "https://www.linkedin.com/in/mohannad-salem/",
-      },
-    ],
+    links: [],
   },
 ];
 

@@ -30,19 +30,21 @@ export default function Projects() {
               ))}
             </div>
 
-            <div className={styles.links}>
-              {project.links.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className={styles.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
+            {project.links.length > 0 && (
+              <div className={styles.links}>
+                {project.links.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className={styles.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            )}
           </article>
         ))}
       </div>
